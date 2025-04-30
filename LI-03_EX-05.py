@@ -1,5 +1,5 @@
 print("--------------------------------------------------------------------------------------------------------------------------------------")
-print("Vamos ler dois números realizar três operaçõe matemáticas e mostrar os resultados se a soma dos valores originais for menor que 20")
+print("Vamos ler dois números realizar três operações matemáticas e mostrar os resultados se a soma dos valores originais for menor que 20")
 num_1 = float(input("Digite o primeiro número: "))
 num_2 = float(input("Digite o segundo número: "))
 calc_1 = num_1 + num_2
