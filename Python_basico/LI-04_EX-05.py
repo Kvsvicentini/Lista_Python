@@ -6,17 +6,18 @@ num_3 = float(input("Digite o terceiro número: "))
 if (num_1 < num_2):
     if ( num_3 < num_1):
         result_1 = num_3 + 5
-        print(f"O a soma com {num_3} número é {result_1}")
+        print(f"{num_3} + 5 = {result_1}")
     else:
         result_1 = num_1 + 5
-        print(f"O a soma com {num_1} número é {result_1}")
+        print(f"{num_1} + 5 = {result_1}")
 else:
     if (num_2 < num_3):
         result_1 = num_2 + 5
-        print(f"O a soma com {num_2} número é {result_1}")
+        print(f"{num_2} + 5 = {result_1}")
     else:
         result_1 = num_3 + 5
-        print(f"O a soma com {num_3} número é {result_1}")
+        print(f"{num_3} + 5 = {result_1}")
+        
 #Outra maneira de fazer o exercício
 '''
 list = [num_1, num_2, num_3]
